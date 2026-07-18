@@ -1,0 +1,230 @@
+*{margin: 0%;
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box
+;}
+
+.navbar{
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+body{
+  background-image: url(bg1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1{
+  text-align: center;
+  color: rgb(241, 235, 235);
+}
+
+.letter-box{
+    width: 70%;
+    max-width: 700px;
+    min-height: 350px;
+    background: rgba(0,0,0,0.7);
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+}
+
+
+.letter-box{
+  color: crimson;
+  margin-bottom: 20px;
+}
+
+.letter-box{
+  font-size: 18px;
+  line-height: 1.8px;
+  color: #333;
+}
+
+.letter-box h2{
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight:bold;
+  color: black;
+}
+.letter-box p{
+  margin-top: 20px;
+  line-height: 1.8;
+  text-align: center;
+  color: black;
+font-size: 18px;}
+
+.btn-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.open-btn{
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+
+    position: static; 
+}
+
+#openBtn{
+  display: none;
+
+  @keyframes dropBounce{
+    0%{
+        transform: translateY(-150px);
+        opacity: 0;
+    }
+
+    60%{
+        transform: translateY(20px);
+        opacity: 1;
+    }
+
+    75%{
+        transform: translateY(-10px);
+    }
+
+    90%{
+        transform: translateY(5px);
+    }
+
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+}
+.open-btn:hover{
+    background-color: darkred;
+    transform: scale(1.05);
+}
+
+.open-btn:hover{
+    background-color: darkred;
+    transform: scale(1.05);
+}
+.navbar{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation: dropBounce 1.8s ease-out;
+}
+
+.navbar{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation: dropBounce 1.5s ease-out;
+}
+
+.navbar h1{
+    opacity: 0;
+    animation: dropBounce 1.5s ease-out;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+
+
+@keyframes dropBounce{
+    0%{
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+
+    60%{
+        transform: translateY(25px);
+        opacity: 1;
+    }
+
+    75%{
+        transform: translateY(-12px);
+    }
+
+    90%{
+        transform: translateY(8px);
+    }
+
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.letter-box{
+    width: 70%;
+    max-width: 700px;
+    min-height: 350px;
+
+    background: rgba(0,0,0,0.75);
+    color: white;
+
+    margin: 40px auto;
+    padding: 30px;
+
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+
+    opacity: 0;
+
+    animation: dropBounce 1.8s ease-out;
+    animation-delay: 3s;          /* Navbar aur title ke baad */
+    animation-fill-mode: forwards;
+}
+
+.letter-box h2{
+    text-align: center;
+    color: crimson;
+    margin-bottom: 20px;
+}
+
+.letter-box p{
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: center;
+    color: white;
+}
+
+
+@keyframes dropBounce{
+    0%{
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+
+    60%{
+        transform: translateY(25px);
+        opacity: 1;
+    }
+
+    75%{
+        transform: translateY(-12px);
+    }
+
+    90%{
+        transform: translateY(8px);
+    }
+
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
